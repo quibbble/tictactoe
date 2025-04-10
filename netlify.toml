@@ -1,2 +1,8 @@
 [build.environment]
     NPM_CONFIG_USERCONFIG = "./netlify/.npmrc"
+
+[[redirects]]
+    from = "/"
+    to = "https://www.quibbble.com"
+    status = 301
+    force = true
